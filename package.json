@@ -1,5 +1,5 @@
 {
-  "name": "restaurant-page",
+  "name": "game-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edmtrv/restaurant-page.git"
+    "url": "git+https://github.com/edmtrv/game-page.git"
   },
   "author": "Emil Dimitrov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edmtrv/restaurant-page/issues"
+    "url": "https://github.com/edmtrv/game-page/issues"
   },
-  "homepage": "https://github.com/edmtrv/restaurant-page#readme",
+  "homepage": "https://github.com/edmtrv/game-page#readme",
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
