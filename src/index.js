@@ -1,1 +1,3 @@
-console.log('WORKS');
+import page from './game';
+
+page();
