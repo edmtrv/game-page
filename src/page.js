@@ -1,5 +1,5 @@
 
-export default function pageLoad() {
+export default function loadPage() {
   const content = document.querySelector('#content');
 
   const h1 = document.createElement('h1');
