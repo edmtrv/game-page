@@ -1,3 +1,3 @@
-import page from './game';
+import page from './page';
 
 page();
