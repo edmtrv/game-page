@@ -6,8 +6,20 @@ export default function pageLoad() {
   h1.textContent = 'Grand Theft Auto V';
   content.appendChild(h1);
 
+  const tablist = document.createElement('ul');
+  tablist.classList.add('tab-list');
 
+  const tabNames = ['Basic Info', 'Description', 'System Requirements'];
 
+  tabNames.forEach((name, i) => {
+    const item = document.createElement('li');
+    item.setAttribute('data-tab', i + '');
+    item.textContent = name;
+
+    tablist.appendChild(item);
+  });
+
+  content.appendChild(tablist);
 
   content.appendChild(section);
 }
