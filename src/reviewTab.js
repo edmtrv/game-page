@@ -1,6 +1,6 @@
-export default function generateDescription() {
+export default function generateReview() {
   const descNode = document.createElement('article');
-  descNode.setAttribute('data-section', '2');
+  descNode.setAttribute('data-tab', '2');
   descNode.classList.add('tab');
 
   const p1 = document.createElement('p');

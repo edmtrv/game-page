@@ -1,4 +1,4 @@
-import basicTab from './basicTab';
+import basicTab from './descriptionTab';
 
 export default function loadPage() {
   const content = document.querySelector('#content');
@@ -10,11 +10,11 @@ export default function loadPage() {
   const buttons = document.createElement('ul');
   buttons.classList.add('buttons');
 
-  const tabNames = ['Basic Info', 'Description', 'System Requirements'];
+  const tabNames = ['Description', 'Review', 'System Requirements'];
 
   tabNames.forEach((name, i) => {
     const item = document.createElement('li');
-    item.setAttribute('data-tab', i + '');
+    item.setAttribute('data-id', i + '');
     item.textContent = name;
 
     buttons.appendChild(item);

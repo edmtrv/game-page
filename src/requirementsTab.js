@@ -1,6 +1,6 @@
 export default function generateRequrements() {
   const requirementsNode = document.createElement('article');
-  requirementsNode.setAttribute('data-section', '3');
+  requirementsNode.setAttribute('data-tab', '3');
   requirementsNode.classList.add('tab');
 
   const minHeading = document.createElement('h2');
