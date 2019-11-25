@@ -11,7 +11,6 @@ items.forEach(item => item.addEventListener('click', switchTabs));
 function switchTabs() {
   const currentButton = this.dataset.id;
   const currentTab = document.querySelector('.current-tab');
-  console.log(currentButton);
   if (currentButton == currentTab.dataset.tab) return;
 
   let nextTab = null;
@@ -25,12 +24,12 @@ function switchTabs() {
       break;
     case '3':
       nextTab = requirementsTab();
+      break;
     default:
       nextTab = '<p>Empty content</p>';
       break;
   }
 
-  console.log(nextTab);
   nextTab.classList.add('current-tab');
   const parent = currentTab.parentNode;
   parent.innerHTML = '';

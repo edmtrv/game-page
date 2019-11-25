@@ -14,7 +14,7 @@ export default function loadPage() {
 
   tabNames.forEach((name, i) => {
     const item = document.createElement('li');
-    item.setAttribute('data-id', i + '');
+    item.setAttribute('data-id', (i + 1) + '');
     item.textContent = name;
 
     buttons.appendChild(item);
