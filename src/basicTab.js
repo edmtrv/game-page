@@ -1,6 +1,6 @@
 import gameImg from './img/game-image.jpg';
 
-export default function gameTab() {
+export default function generateBasic() {
   const section = document.createElement('section');
   section.classList.add('game');
 
