@@ -22,9 +22,12 @@ export default function loadPage() {
 
   content.appendChild(buttons);
 
-  const currentTab = document.createElement('section');
-  currentTab.classList.add('tab-list');
-  currentTab.appendChild(basicTab());
+  const tabSection = document.createElement('section');
+  tabSection.classList.add('tab-list');
+  tabSection.appendChild(basicTab());
 
-  content.appendChild(currentTab);
+  const currentTab = tabSection.querySelector('.tab');
+  currentTab.classList.add('current-tab');
+
+  content.appendChild(tabSection);
 }
