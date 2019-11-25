@@ -1,5 +1,6 @@
 export default function generateDescription() {
   const descNode = document.createElement('article');
+  descNode.setAttribute('data-section', '2');
 
   const p1 = document.createElement('p');
 

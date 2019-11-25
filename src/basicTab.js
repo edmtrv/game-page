@@ -2,7 +2,7 @@ import gameImg from './img/game-image.jpg';
 
 export default function generateBasicInfo() {
   const infoNode = document.createElement('section');
-  infoNode.classList.add('game');
+  infoNode.setAttribute('data-section', '1');
 
   const figure = document.createElement('figure');
   figure.classList.add('game-photo');
