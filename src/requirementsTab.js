@@ -19,4 +19,6 @@ export default function generateRequrements() {
   requirementsNode.appendChild(minUl);
   requirementsNode.appendChild(recHeading);
   requirementsNode.appendChild(recUl);
+
+  return requirementsNode;
 }

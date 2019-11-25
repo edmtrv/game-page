@@ -16,4 +16,6 @@ export default function generateDescription() {
   descNode.appendChild(p1);
   descNode.appendChild(p2);
   descNode.appendChild(p3);
+
+  return descNode;
 }
