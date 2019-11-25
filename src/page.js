@@ -1,3 +1,4 @@
+import basicTab from './basicTab';
 
 export default function loadPage() {
   const content = document.querySelector('#content');
@@ -21,5 +22,5 @@ export default function loadPage() {
 
   content.appendChild(tablist);
 
-  content.appendChild(section);
+  content.appendChild(basicTab());
 }
