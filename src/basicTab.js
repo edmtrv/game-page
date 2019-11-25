@@ -3,6 +3,7 @@ import gameImg from './img/game-image.jpg';
 export default function generateBasicInfo() {
   const infoNode = document.createElement('section');
   infoNode.setAttribute('data-section', '1');
+  infoNode.classList.add('tab');
 
   const figure = document.createElement('figure');
   figure.classList.add('game-photo');
