@@ -14,6 +14,8 @@ function switchTabs() {
   const currentTab = document.querySelector('.current-tab');
   if (currentButton == currentTab.dataset.tab) return;
 
+  items.forEach(item => item.classList.remove('active'));
+
   let nextTab = null;
 
   switch (currentButton) {
@@ -32,6 +34,7 @@ function switchTabs() {
   }
 
   nextTab.classList.add('current-tab');
+  this.classList.add('active');
   const parent = currentTab.parentNode;
   parent.innerHTML = '';
   parent.appendChild(nextTab);

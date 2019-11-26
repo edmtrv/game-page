@@ -16,6 +16,7 @@ export default function loadPage() {
     const item = document.createElement('li');
     item.setAttribute('data-id', (i + 1) + '');
     item.textContent = name;
+    if (i == 0) item.classList.add('active');
 
     buttons.appendChild(item);
   });
