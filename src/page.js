@@ -1,4 +1,4 @@
-import basicTab from './descriptionTab';
+import descriptionTab from './descriptionTab';
 
 export default function loadPage() {
   const content = document.querySelector('#content');
@@ -24,7 +24,7 @@ export default function loadPage() {
 
   const tabSection = document.createElement('section');
   tabSection.classList.add('tab-list');
-  tabSection.appendChild(basicTab());
+  tabSection.appendChild(descriptionTab());
 
   const currentTab = tabSection.querySelector('.tab');
   currentTab.classList.add('current-tab');
