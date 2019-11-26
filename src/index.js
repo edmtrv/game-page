@@ -1,3 +1,4 @@
+import './styles.css';
 import page from './page';
 import basicTab from './descriptionTab';
 import descriptionTab from './reviewTab';
